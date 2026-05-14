@@ -15,16 +15,19 @@ else{
 }
 
 // if-else if statement
-let fruit = "apple";
+let marks = 75;
 
-if (fruit === "apple") {
-    console.log("Its an apple");
-} else if (fruit === "banana") {
-    console.log("Its a banana");
-} else if (fruit === "orange") {
-    console.log("Its an orange");
-} else {
-    console.log("Unknown fruit");
+if (marks >= 90) {
+    console.log("Grade A");
+}
+else if (marks >= 70) {
+    console.log("Grade B");
+}
+else if (marks >= 50) {
+    console.log("Grade C");
+}
+else {
+    console.log("Fail");
 }
 
 //equality 1.double equality 2.triple equality
