@@ -95,7 +95,6 @@ const dataAgeSum = data.reduce( (total, item) => {
     return total + item.age
 },initialValue);
 console.log(dataAgeSum)
-
 const multiArr = [[1,2,3], [4,5,6], [7,8,9]];
 //[1,2,3,4,5,6,7,8,9]
 const flatenArr = multiArr.reduce( (acc, cur) => {

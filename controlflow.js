@@ -37,7 +37,6 @@ var val2 ="25";
 if(val1 == val2){
     console.log(true);
 }
-
 if(val1=== val2)
 {
     console.log(true);
